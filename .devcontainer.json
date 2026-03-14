@@ -1,0 +1,10 @@
+{
+  "name": "wsl-build",
+  "image": "mcr.microsoft.com/devcontainers/python:3",
+  "features": {
+    "ghcr.io/rio/features/chezmoi:1": {},
+    "ghcr.io/devcontainers-extra/features/act:1": {},
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+  },
+  "runArgs": ["--name=wsl-build", "--platform=linux/amd64"]
+}
