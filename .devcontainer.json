@@ -1,6 +1,6 @@
 {
   "name": "wsl-build",
-  "image": "mcr.microsoft.com/devcontainers/python:3",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11-bookworm",
   "features": {
     "ghcr.io/rio/features/chezmoi:1": {},
     "ghcr.io/devcontainers-extra/features/act:1": {},
